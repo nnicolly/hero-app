@@ -1,0 +1,54 @@
+# Materiais locais de estudo e ferramentas temporárias de leitura.
+/materiais/
+/.tools/
+
+# Cópia original redundante: os mesmos 563 JSONs estão em backend/db.json.
+/backend/all.json
+
+# Dependências e arquivos gerados do Flutter, Gradle e Node.js.
+node_modules/
+.dart_tool/
+.pub-cache/
+.pub/
+.gradle/
+.cxx/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE e configurações específicas de cada computador.
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+local.properties
+
+# Credenciais e assinatura local; exemplos sem segredos podem ser versionados.
+.env
+.env.*
+!.env.example
+.npmrc
+key.properties
+*.jks
+*.keystore
+
+# Bancos locais, binários de distribuição e arquivos temporários.
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.apk
+*.aab
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
